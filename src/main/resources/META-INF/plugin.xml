@@ -1,0 +1,30 @@
+<idea-plugin>
+
+    <id>org.devisions.design.intellij-vipassana-theme</id>
+    <name>Vipassana</name>
+    <vendor email="marius.ileana@gmail.com" url="http://devisions.org">devisions</vendor>
+
+    <description><![CDATA[
+    This is my initial tryout of creating an IntelliJ theme,
+    inspired by Qiita theme that exists in VSCode.<br>
+    ]]></description>
+
+    <change-notes>
+        2020-02-18 | The initial small first steps into the project.
+    </change-notes>
+
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="d4941d4b-8315-4c69-b1a1-3943061ce533" path="/META-INF/intellij-vipassana.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

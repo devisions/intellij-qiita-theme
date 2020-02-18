@@ -1,0 +1,39 @@
+{
+  "name": "Qiita",
+  "dark": true,
+  "author": "Marius Ileana",
+  "editorScheme": "/META-INF/intellij-qiita.xml",
+  "colors": {
+    "defBg": "#374549",
+    "defSepColor": "#263033"
+  },
+  "ui": {
+    "*": {
+      "background": "defBg",
+      "separatorColor": "defBg"
+    },
+    "Editor": {
+      "background": "#defBg",
+      "foreground": "#CCC"
+    },
+    "Tree": {
+      "background": "defBg",
+      "foreground": "#CCC",
+      "paintLines": false,
+      "selectionBackground": "defBg",
+      "selectionForeground": "#8BE04C",
+      "selectionInactiveBackground": "#2D383A"
+    },
+    "Viewport": {
+      "background": "#defBg"
+    },
+    "DefaultTabs": {
+      "background": "defBg",
+      "borderColor": "defBg",
+      "underlinedTabBackground": "defBg",
+      "inactiveUnderlineColor": "defBg",
+      "underlineHeight": "0px",
+      "underlineColor": "defBg"
+    }
+  }
+}
