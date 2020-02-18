@@ -2,38 +2,70 @@
   "name": "Qiita",
   "dark": true,
   "author": "Marius Ileana",
-  "editorScheme": "/META-INF/intellij-qiita.xml",
+  "editorScheme": "/META-INF/intellij-vipassana.xml",
   "colors": {
-    "defBg": "#374549",
-    "defSepColor": "#263033"
+    "defBg": "#324649",
+    "defSepColor": "#263033",
+    "freshG": "#6BE320",
+    "lightBlue": "#83B3BB"
   },
   "ui": {
     "*": {
       "background": "defBg",
-      "separatorColor": "defBg"
+      "separatorColor": "defBg",
+      "selectionBackground": "defSepColor",
+      "selectionForeground": "freshG"
     },
-    "Editor": {
-      "background": "#defBg",
-      "foreground": "#CCC"
-    },
-    "Tree": {
-      "background": "defBg",
-      "foreground": "#CCC",
-      "paintLines": false,
-      "selectionBackground": "defBg",
-      "selectionForeground": "#8BE04C",
-      "selectionInactiveBackground": "#2D383A"
-    },
-    "Viewport": {
-      "background": "#defBg"
+    "Button": {
+      "foreground": "lightBlue",
+      "default.startBackground": "defSepColor",
+      "default.endBackground": "defSepColor",
+      "default.focusColor": "freshG",
+      "default.foreground": "freshG",
+      "startBackground": "defSepColor",
+      "endBackground": "defSepColor"
     },
     "DefaultTabs": {
       "background": "defBg",
       "borderColor": "defBg",
       "underlinedTabBackground": "defBg",
+      "underlinedTabForeground": "freshG",
       "inactiveUnderlineColor": "defBg",
-      "underlineHeight": "0px",
+      "hoverBackground": "defBg",
+      "underlineHeight": 0,
       "underlineColor": "defBg"
+    },
+    "Editor": {
+      "foreground": "#CCC"
+    },
+    "EditorTabs": {
+      "borderColor": "defBg",
+      "underlineColor": "freshG",
+      "underlineHeight": 0,
+      "underlinedTabBackground": "defBg"
+    },
+    "ToolBar": {
+      "shadow": "defBg"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "defBg",
+        "borderColor": "defBg",
+        "inactiveBackground": "defBg"
+      },
+      "Button.hoverBackground": "defSepColor"
+
+    },
+    "Tree": {
+      "background": "#3C5458",
+      "foreground": "#CCC",
+      "paintLines": false,
+      "selectionBackground": "defBg",
+      "selectionForeground": "#8BE04C",
+      "selectionInactiveBackground": "#3C5458"
+    },
+    "Viewport": {
+      "background": "#defBg"
     }
   }
 }
