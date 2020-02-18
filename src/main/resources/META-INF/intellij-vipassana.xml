@@ -1,4 +1,4 @@
-<scheme name="Qiita" version="142" parent_scheme="Darcula">
+<scheme name="Vipassana" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="457337" />
     <option name="ANNOTATIONS_COLOR" value="a0a7b4" />
@@ -20,7 +20,6 @@
     <option name="ERROR_HINT" value="781732" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4f575f" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
-    <option name="GUTTER_BACKGROUND" value="324549" />
     <option name="HTML_TAG_TREE_LEVEL0" value="f44747" />
     <option name="HTML_TAG_TREE_LEVEL1" value="e5c07b" />
     <option name="HTML_TAG_TREE_LEVEL2" value="98c379" />
@@ -47,6 +46,7 @@
     <option name="VISUAL_INDENT_GUIDE" value="2a3235" />
     <option name="WHITESPACES" value="4b575f" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="5c6370" />
+    <option name="GUTTER_BACKGROUND" value="2f4245" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">

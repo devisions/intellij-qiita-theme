@@ -18,8 +18,8 @@
     },
     "Button": {
       "foreground": "lightBlue",
-      "default.startBackground": "defSepColor",
-      "default.endBackground": "defSepColor",
+      "default.startBackground": "defBg",
+      "default.endBackground": "defBg",
       "default.focusColor": "freshG",
       "default.foreground": "freshG",
       "startBackground": "defSepColor",
@@ -43,6 +43,9 @@
       "underlineColor": "freshG",
       "underlineHeight": 0,
       "underlinedTabBackground": "defBg"
+    },
+    "Separator": {
+      "separatorColor": "defbg"
     },
     "ToolBar": {
       "shadow": "defBg"
