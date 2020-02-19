@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'org.devisions.design'
-version '1.0.0'
+version '0.4.0'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
@@ -11,6 +11,6 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      <em>2020-02-19</em>Initial publishing. Still a WIP in many places.<br>
+      """
 }
