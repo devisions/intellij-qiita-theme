@@ -7,10 +7,12 @@
     <description><![CDATA[
     This is my initial tryout of creating an IntelliJ theme,
     inspired by Qiita theme that exists in VSCode.<br>
+    There are still a couple of things to do/fix. Before doing a bad rating, :) please raise an issue, and I'll try to solve it.<br/>
+    All is and will be done in [this repo](https://github.com/devisions/intellij-vipassana-theme).
     ]]></description>
 
     <change-notes>
-        2020-02-18 | The initial small first steps into the project.
+        2020-02-19 | Initial publishing of the theme.
     </change-notes>
 
     <idea-version since-build="173.0"/>
