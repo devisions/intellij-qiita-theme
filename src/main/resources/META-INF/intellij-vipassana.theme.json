@@ -5,25 +5,53 @@
   "editorScheme": "/META-INF/intellij-vipassana.xml",
   "colors": {
     "defBg": "#324649",
+    "defLighterBg": "#3C5458",
     "defSepColor": "#263033",
     "freshG": "#6BE320",
-    "lightBlue": "#83B3BB"
+    "lightBlue": "#83B3BB",
+    "darkerBlue": "#445B5F"
   },
   "ui": {
     "*": {
       "background": "defBg",
+      "caretForeground": "freshG",
       "separatorColor": "defBg",
       "selectionBackground": "defSepColor",
-      "selectionForeground": "freshG"
+      "selectionForeground": "freshG",
+      "Header": {
+        "background": "defBg"
+      }
+    },
+    "ActionButton": {
+      "hoverBackground": "darkerBlue",
+      "hoverBorderColor": "darkerBlue",
+      "pressedBorderColor": "freshG",
+      "pressedBackground": "defSepColor"
+    },
+    "Borders": {
+      "color": "defBg",
+      "ContrastBorderColor": "defBg"
     },
     "Button": {
       "foreground": "lightBlue",
+      "background": "defBg",
       "default.startBackground": "defBg",
       "default.endBackground": "defBg",
       "default.focusColor": "freshG",
       "default.foreground": "freshG",
-      "startBackground": "defSepColor",
-      "endBackground": "defSepColor"
+      "startBackground": "defBg",
+      "endBackground": "defBg"
+    },
+    "Component": {
+      "infoForeground": "lightBlue",
+      "borderColor": "darkerBlue",
+      "focusColor": "freshG",
+      "focusWidth": 1,
+      "hoverIconColor": "freshG"
+    },
+    "FormattedTextField":{
+      "background": "defBg",
+      "selectionBackground": "defSepColor"
     },
     "DefaultTabs": {
       "background": "defBg",
@@ -44,6 +72,7 @@
       "underlineHeight": 0,
       "underlinedTabBackground": "defBg"
     },
+    "NavBar.borderColor": "defBg",
     "Separator": {
       "separatorColor": "defbg"
     },
@@ -56,11 +85,11 @@
         "borderColor": "defBg",
         "inactiveBackground": "defBg"
       },
-      "Button.hoverBackground": "defSepColor"
+      "Button.hoverBackground": "darkerBlue"
 
     },
     "Tree": {
-      "background": "#3C5458",
+      "background": "defLighterBg",
       "foreground": "#CCC",
       "paintLines": false,
       "selectionBackground": "defBg",
@@ -69,6 +98,11 @@
     },
     "Viewport": {
       "background": "#defBg"
+    },
+    "WelcomeScreen": {
+      "background": "defBg",
+      "separatorColor": "defSepColor",
+      "Projects.background": "defLighterBg"
     }
   }
 }
