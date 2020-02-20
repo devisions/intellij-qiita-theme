@@ -2,10 +2,11 @@
   "name": "Vipassana",
   "dark": true,
   "author": "Marius Ileana",
-  "editorScheme": "/META-INF/intellij-vipassana.xml",
+  "editorScheme": "/intellij-vipassana.xml",
   "colors": {
     "defBg": "#324649",
     "defLighterBg": "#3C5458",
+    "defDarkerBg": "#2A3C3F",
     "defSepColor": "#263033",
     "freshG": "#6BE320",
     "lightBlue": "#83B3BB",
@@ -14,12 +15,13 @@
   "ui": {
     "*": {
       "background": "defBg",
+      "borderColor": "defDarkerBg",
       "caretForeground": "freshG",
       "separatorColor": "defBg",
       "selectionBackground": "defSepColor",
       "selectionForeground": "freshG",
       "Header": {
-        "background": "defBg"
+        "background": "defSepColor"
       }
     },
     "ActionButton": {
@@ -34,7 +36,6 @@
     },
     "Button": {
       "foreground": "lightBlue",
-      "background": "defBg",
       "default.startBackground": "defBg",
       "default.endBackground": "defBg",
       "default.focusColor": "freshG",
@@ -49,7 +50,7 @@
       "focusWidth": 1,
       "hoverIconColor": "freshG"
     },
-    "FormattedTextField":{
+    "FormattedTextField": {
       "background": "defBg",
       "selectionBackground": "defSepColor"
     },
@@ -72,12 +73,14 @@
       "underlineHeight": 0,
       "underlinedTabBackground": "defBg"
     },
-    "NavBar.borderColor": "defBg",
     "Separator": {
       "separatorColor": "defbg"
     },
     "ToolBar": {
-      "shadow": "defBg"
+      "highlight": "defBg",
+      "light": "defBg",
+      "shadow": "defBg",
+      "darkShadow": "defBg"
     },
     "ToolWindow": {
       "Header": {
@@ -85,8 +88,9 @@
         "borderColor": "defBg",
         "inactiveBackground": "defBg"
       },
-      "Button.hoverBackground": "darkerBlue"
-
+      "Button": {
+        "hoverBackground": "darkerBlue",
+      }
     },
     "Tree": {
       "background": "defLighterBg",
@@ -102,7 +106,11 @@
     "WelcomeScreen": {
       "background": "defBg",
       "separatorColor": "defSepColor",
-      "Projects.background": "defLighterBg"
+      "Projects": {
+        "background": "defLighterBg",
+        "selectionBackground": "defDarkerBg",
+        "selectionInactiveBackground": "defDarkerBg"
+      }
     }
   }
 }

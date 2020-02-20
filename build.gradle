@@ -11,6 +11,6 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-      <em>2020-02-19</em>Initial publishing. Still a WIP in many places.<br>
+      <em>2020-02-19</em><br/>Initial publishing. Still a WIP in many places.<br>
       """
 }
