@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'org.devisions.design'
-version '0.4.3'
+version '0.4.4'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
@@ -11,12 +11,17 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
-        <em>2020-02-21 | v0.4.3</em><br/>
+        <b>2020-02-21 | v0.4.4</b>
+        <ul>
+            <li>Some more color cosmetics, plugin icons as svg added.</li>
+        </ul>
+        <br/>
+        <b>2020-02-21 | v0.4.3</b>
         <ul>
             <li>Small additions, plugin icon added.</li>
         </ul>
         <br/>
-        <em>2020-02-19 | v0.4.1</em>
+        <b>2020-02-19 | v0.4.1</b>
         <ul>
             <li>Initial publishing of the theme. Still a WIP in many places.</li>
         </ul>

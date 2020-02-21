@@ -5,6 +5,11 @@
   "editorScheme": "/intellij-vipassana.xml",
   "colors": {
     "defBg": "#324649",
+    "defFg": "#A3B4A3",
+    "defFgInactive": "#83B3BB",
+    "defHighlight": "#FAFFC2",
+    "defIconColor": "#85A0A9",
+    "defIconColorDisabled": "#315560",
     "defLighterBg": "#3C5458",
     "defDarkerBg": "#2A3C3F",
     "defSepColor": "#263033",
@@ -15,17 +20,24 @@
   "ui": {
     "*": {
       "background": "defBg",
+      "foreground": "defFg",
       "borderColor": "defDarkerBg",
       "caretForeground": "freshG",
+      "inactiveBackground": "defBg",
+      "inactiveForeground": "defFgInactive",
       "separatorColor": "defBg",
       "selectionBackground": "defSepColor",
       "selectionForeground": "freshG",
+      "selectionBackgroundInactive": "defSepColor",
+      "selectionForegroundInactive": "defFg",
+      "textBackground": "defBg",
+      "textForeground": "defFg",
       "Header": {
         "background": "defSepColor"
       }
     },
     "ActionButton": {
-      "hoverBackground": "darkerBlue",
+      "hoverBackground": "lightBlue",
       "hoverBorderColor": "darkerBlue",
       "pressedBorderColor": "freshG",
       "pressedBackground": "defSepColor"
@@ -42,6 +54,17 @@
       "default.foreground": "freshG",
       "startBackground": "defBg",
       "endBackground": "defBg"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "defBg",
+        "disabledIconColor": "defIconColorDisabled",
+        "iconColor": "defIconColor",
+        "nonEditableBackground": "defBg"
+      },
+      "background": "defBg",
+      "disabledForeground": "defFgInactive",
+      "foreground": "defFg"
     },
     "Component": {
       "infoForeground": "lightBlue",
@@ -72,6 +95,10 @@
       "underlineColor": "freshG",
       "underlineHeight": 0,
       "underlinedTabBackground": "defBg"
+    },
+    "List": {
+      "background": "defBg",
+      "foreground": "defFg"
     },
     "Separator": {
       "separatorColor": "defbg"
@@ -105,6 +132,10 @@
     },
     "WelcomeScreen": {
       "background": "defBg",
+      "borderColor": "defBg",
+      "groupIconBorderColor": "defSepColor",
+      "captionBackground": "defBg",
+      "captionForeground": "defFg",
       "separatorColor": "defSepColor",
       "Projects": {
         "background": "defLighterBg",
