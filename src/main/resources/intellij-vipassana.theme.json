@@ -89,7 +89,7 @@
         "inactiveBackground": "defBg"
       },
       "Button": {
-        "hoverBackground": "darkerBlue",
+        "hoverBackground": "darkerBlue"
       }
     },
     "Tree": {
