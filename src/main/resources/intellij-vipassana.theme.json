@@ -4,13 +4,13 @@
   "author": "Marius Ileana",
   "editorScheme": "/intellij-vipassana.xml",
   "colors": {
-    "defBg": "#324649",
+    "defBg": "#364549",
     "defFg": "#A3B4A3",
-    "defFgInactive": "#83B3BB",
+    "defFgInactive": "#7b7c7e",
     "defHighlight": "#FAFFC2",
     "defIconColor": "#85A0A9",
     "defIconColorDisabled": "#315560",
-    "defLighterBg": "#3C5458",
+    "defLighterBg": "#415358",
     "defDarkerBg": "#2A3C3F",
     "defSepColor": "#263033",
     "freshG": "#6BE320",
@@ -21,8 +21,9 @@
     "*": {
       "background": "defBg",
       "foreground": "defFg",
-      "borderColor": "defDarkerBg",
+      "borderColor": "defBg",
       "caretForeground": "freshG",
+      "disabledText": "defFgInactive",
       "inactiveBackground": "defBg",
       "inactiveForeground": "defFgInactive",
       "separatorColor": "defBg",
@@ -100,8 +101,9 @@
       "background": "defBg",
       "foreground": "defFg"
     },
-    "Separator": {
-      "separatorColor": "defbg"
+    "TabbedPane": {
+      "contentAreaColor": "defBg",
+      "underlineColor": "freshG"
     },
     "ToolBar": {
       "highlight": "defBg",
