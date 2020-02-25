@@ -106,7 +106,7 @@
       "underlineColor": "freshG"
     },
     "ToolBar": {
-      "highlight": "defBg",
+      "highlight": "defDarkerBg",
       "light": "defBg",
       "shadow": "defBg",
       "darkShadow": "defBg"
@@ -118,7 +118,7 @@
         "inactiveBackground": "defBg"
       },
       "Button": {
-        "hoverBackground": "darkerBlue"
+        "hoverBackground": "defDarkerBg"
       }
     },
     "Tree": {
