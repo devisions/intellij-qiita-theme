@@ -6,11 +6,11 @@
 
     <description>
         <![CDATA[
-        <img src="https://github.com/devisions/intellij-vipassana-theme/raw/master/doc/screenshot-1.png" alt="theme screenshot"> <br/>
-    This is my initial tryout of creating an IntelliJ theme,
-    inspired by Qiita theme that exists in VSCode.<br>
-    There are still a couple of things to do/fix. Before doing a bad rating, :p please raise an issue, and I'll try to solve it.<br/><br/>
+    This is my initial tryout of creating an IntelliJ theme, initially inspired by Qiita theme that exists for VSCode.<br>
+    It's still a WIP, so please excuse some aspects, and raise an issue for things you want to be improved, and I'll try to solve it.<br/>
     All there is and will be done in <a href="https://github.com/devisions/intellij-vipassana-theme">this repo</a>.
+    <br/>
+    <img src="https://github.com/devisions/intellij-vipassana-theme/raw/master/doc/screenshot-2_smaller.png" alt="theme screenshot">
         ]]>
     </description>
 
